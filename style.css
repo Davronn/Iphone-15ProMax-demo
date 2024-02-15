@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.phone {
+  width: 284px;
+  height: 596px;
+  display: flex;
+  padding: 10px;
+  background-image: url("./15\ pro\ max\ phone.png");
+  background-repeat: no-repeat;
+}
+.phone_apps {
+  margin: 50px 1px 30px;
+  padding: 10px;
+  display: flex;
+}
+.phone_app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone_app p{
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.phone_apps img{
+ margin-right: 10px;
+}
+
+.clock,
+.timer {
+  margin-top: 50px;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+.btn_a {
+  width: 54px;
+  height: 54px;
+  border-radius: 5%;
+  border: none;
+  background-color: cyan  ; 
+}
+
+.clock h1,
+.timer h1 {
+  margin-top: 0;
+  color: #ffff;
+}
+
+.clock-display,
+.timer-display {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.t_btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.t_btn:hover {
+  background-color: #45a049;
+}
+
+.t_btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 100%;
+  font-size: large;
+  font-weight: 500;
+  
+}
+
+.btn_a:hover{
+  opacity: 0.8;
+}
+
+
+img {
+  width: 64px;
+  height: 64px;
+}
