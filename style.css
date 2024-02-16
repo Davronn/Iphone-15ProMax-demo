@@ -17,9 +17,10 @@ body {
   background-repeat: no-repeat;
 }
 .phone_apps {
-  margin: 50px 1px 30px;
+  margin: 40px 15px 30px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 .phone_app{
   display: flex;
