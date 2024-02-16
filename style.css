@@ -103,3 +103,14 @@ img {
   width: 64px;
   height: 64px;
 }
+#timerDisplay {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.timer{
+  display: flex;
+  
+  flex-direction: column;
+  margin-left: 59px;
+}

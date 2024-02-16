@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Timer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="phone">
-        <div class="timer">
-            <h1>Timer</h1>
-            <div id="timerDisplay" class="timer-display">00:00:00</div>
-            <button class="t_btn" id="startTimer">Start</button>
-            <button class="t_btn" id="pauseTimer">Pause</button>
-            <button class="t_btn" id="resetTimer">Reset</button>
-          </div>
+      <div class="timer">
+        <h1>Timer</h1>
+
+      <div id="timerDisplay">00:00:00</div>
+
+      <button class="t_btn" onclick="startTimer()">Start</button>
+      <button class="t_btn" onclick="pauseTimer()">Pause</button>
+      <button class="t_btn" onclick="resetTimer()">Reset</button>
     </div>
-    <script src="main.js"></script>
+      </div>
     <script src="timer.js"></script>
   </body>
 </html>

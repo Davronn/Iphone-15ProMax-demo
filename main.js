@@ -1,6 +1,4 @@
-function clock1(){
-    console.log('fsrewf')
-  }
+
 function updateClock() {
     let now = new Date();
     let hours = now.getHours();
